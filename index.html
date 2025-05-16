@@ -33,7 +33,7 @@
       text-decoration: underline;
     }
     .hero {
-      background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD...') no-repeat center center/cover;
+      background: url('https://images.unsplash.com/photo-1591012911203-518e6765f84b?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
       color: white;
       padding: 5rem 2rem;
       text-align: center;
@@ -133,14 +133,15 @@
 <body>
 
   <header>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAMAAACZP8TxAAAAGFBMVEUAAAD///+qqqqmpqbLy8vGxsa7u7uZmZmcnJy/wcDlAAAACHRSTlMAAQIDBAUGBwgJCCRNu8EAAAJ4SURBVHja7ZfLCsJAFIXnoQ7//+xbph27RQlYqNq7bdk7MG2DsPTTk4j6z0hM5zfnM5MlkMnk8vDw8PQAAAAB+KzM8jZxnPeRDrNX+4fq+rq+qHdeU1f+lgIqzklLj9vsVbXYwNlI0DkKg/WvxZYBdNPHGmAX7xxWWA10scQ6x++QVdgNWLS1CG0ekKYB3djTNgJuhLQuhLQQwg3YRM0h9yJ6lqL4e6Gpr1LrG+pLltu2NuSZ69vdLqPvZr4PbPcEAZ1Umi5Vz4O3lDY1LcFyQxRdQHSOX4HZ1WOA9sdltAxPeXfXUy9w5rA7RJsAxHlKoFOcCckPAFwOZB1AesMyEjK3xOA/1klU0ElNfrjL6qg6zA4SA9Ujm2pmuhEayqV0F0o4l4D8MHMWnx/rF82aASvHvGpJ9q4zLcQUvlLZ0/VgAbaVuUKN88zE7AL9cZcM+cK9Q7fJ6OB6rTbJ6MzxlTjx94aCUbs2S3chSAtLP1NgFSzEU1Q67FbYaXAr9CDtHCgsN3LpB1J9DlQlpyM4H9D3rBDWzBqYTJe5Qz3MiR+rfMnF3+4CsV4GxBclNz6v1i7/6OnyY81IB0+NdfgEveqAfwJdkAAAAASUVORK5CYII=" alt="SportNova Logo"/>
+    <!-- Logo SportNova en base64 -->
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAABhCAMAAABpt8EvAAAAM1BMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB9sP7qAAAADXRSTlMAd/wDjclvdTZZku3aV0tAAABOklEQVRoge3XSQ7DMAwF0EnSn/f5RsLIFJO+YmNuYI+I6QPY6MywFmsIjv06kOMZkMhmdex81UVDLVOvO21cTsX1xEGcfVmn7+5vvOZ/y/LaD9B73vLqQX7tR3At0R/3OqNyo7gQw3RhFZo1cmNc5Uw4bcNc5YxCdkpVdK4IN5xl7hlfF7Z6gLNMTfCPwTxw8xPXKvEeQ5x9cS4T0hij6U/T4Ht88i8hPj7pLn1vX9Y+cJqH0D0a/xaj6WwFe6UV8AgZqx4px6TMB56XT87z/+9nLy1j8p0dMBneD5GIlMyIAAAAASUVORK5CYII=" alt="SportNova Logo" />
     <nav>
       <a href="#productos">Productos</a>
       <a href="#sostenibilidad">Sostenibilidad</a>
     </nav>
   </header>
 
-  <section class="hero" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBAQEBAVEBUQEBUPEBAQEBAVFRUQFREWFhUSFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQFysdHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAIBBwj/xAA6EAABAwIDBQcEAwYGAwAAAAABAAIRAyEEEjFBUWEFEyJxgZGhBxMyUrHB0fAUQmLhFCNTYnLxFiM0c4KTorLC8f/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAQIFBgH/xAAwEQACAgEDAgMGBgMBAAAAAAABAgADEQQSITEFQVFhcYGRobHw8RMy0fAyUmLh8RX/2gAMAwEAAhEDEQA/APXqIqVEioVeVJUYjrUikqz+2xNEn0Qe8GkjD5pE1yR7KHHNwxpgD1yoZxTCloF+XpJUsWSf0DpbCZSmVjKhaKlK+S0e6MZaLxTvIbzupYfy6an94cWw1ELUoEZoqXfY7pf9pBf8AM0NxLDHCshD3bX4FUEtvK1g6qDpXsdrm58txX91rDYToKa1HZxFqB3gqtQFFKeJY2k9AfNZzIbB6aXUd7C9RYdOcSRqZXe4Eymle7JVQUyQ6hZhKnexEpxTDHJUocFUbGQ00bKMpdVPZSkqREiZgj9VDx8CkRo1fNa3ZyfEFwN6CphRmvJ4NQY22WbWcxI58RJJQPtIyLCidp3Yd9SLvSSlLj9aVpf2ePQeU7Ax6NBYMCQ1Zj7/AF3rUdxDSwuaSXDcRNH3VpjHwGwlSZU7jX6fkgLTed4jv+Rf6jSmo7/AD4tTVcvhJVKgUo5SUrkoLyknIAOUm9/2lBqAc6yXvKzRRJhVQlIxjA6Z58kCSrUA3c3eb7gD96kx1Dc4fCNPkdzqdRyb6N92C2b6qX3hAPZ/j0j5k7EJO3GPxuNkvypKJKnnkESklQoFqVKU5VJlXJJFK5HwEdbz8e7Sr++kTxIdJG0pcvNRLaaYpSqepAkx6lJ+cHkk8Y+b1TD7/4vHVZbDjdqPa11J5WTzkuJ8JKVaRnA+VJS4GVqUVKTjXpLDgc9CVKcVITklKUJSZABwUUSnb6PhSQrVhJLnQ7pJAgHnFA7zxHPZ9yzheQw29VPPtO+/TlJOpWpaXSg0+RIQXOqcVYKuM4LzISpFmlFGB1ClOqVHQSJKXGgSkkqxBJqVJCiQIOcB1ykHWRXYiibXBH8jfpUtjvBbfSNpPqcqMeRGpyX7JI4N5R9EpLOE8py1p8Eb3/wCWrPSPZPLPOpU+MbNlxhZRo7TQqPyJLhKBpWiQOT1UkdeP2UPh9Wz8bWvEW89iOpbE3nUSFJIU5kBJKYp0lSDGcooyfNGjIUtSiVCUpJ8hKAkEM5G6UKVKXCk1Nc1Vhy8ULkV7y3id+KLF2Dx+O9tYpStQtNNXyVJQmSlDlL/2Q==');">
+  <section class="hero">
     <h1>SportNova</h1>
     <p>Alcanza tu máximo potencial</p>
   </section>
@@ -148,11 +149,15 @@
   <section id="productos" class="products">
     <h2>Nuestros Productos</h2>
     <div class="product-grid">
+
+      <!-- Camiseta Técnica SportNova -->
       <div class="product">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcU
-        FhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgo
-        KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAQABADASIA
-        AhEBAxEB/8QAHwAAAQUBAQEBAAAAAAAAAAAABQIDBAYHAQcI/8QANxAAAQMCBAMGBAYBBAMAAAAAA
-        QACAwQFEQYSITETQVFhcYGRobHB0fAUMkLhI1JicuHwFiMzQ2KC/8QAGAEBAQEBAQAAAAAAAAAA
-        AAAAAAIDAQX/xAAkEQACAgEEAgIDAAAAAAAAAAABAgMRBBIhMUFRExQiUXGB0f/aAAwDAQACEQMR
-        AD8A+K6tHtVTZXnxn3Wq1ZJrWaf9g57SMEr+LkW7gHe4UjApAq5Dk0ykNlVXYyxVZgO2Eh0
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAADXCAMAAAD0w93cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAB+lQTFRF////8vZ8DPzW3jZdmVltfb1pfqQ1t6hwMJ2n87dYsSeJh4/u4WPHdrtfLNV1DKvnJvs6na/fDu8xW5fqmf3BxtppcbbHRzfGSjvk6znoqCxamZmy69mUQXSt6c+n1i1fkW6sezGkWCsq0T9h2vp7AtodScz48I96RqMm2x15k2nzQXjqH9Ml1B1ttfMmVmrHhVTmqFQvmxX+wiY7n08qsX3b4p1XQ6exXHaABb15TXvmejxWZq44wmPr1WzzvYe5qtKsPpfOnf1zZfE2vn3Svw+Gq8jDgu47GvT54OHK3/GOzWQ6b7vYdoynQUAAAS+SURBVHja7Jp7koNAEIaNIT7FuwHPl7f//0t5Myh2oJMZPZhE3OXTLqvq81HBrNTS7p5lc+LJWy6MvjTp5e0J29/TWWyoqHzJdBHWahAKwBRtVaYy15UtVa4FwE92PqCr3tgtHt0CFqFyyRJzUpM7dUpJVukyRyrZzMoB60Gst+pJBvQStwtEdvkKocC9orO9Hb0zpRE3vUZKoHtJaJrvTN1cLpKkjkpCZ6T9t7pknJd+kJySPel6Tv6DSd+cNJPPrZnJ49M5k6F/vRKPD+VGxDzwPTBzvJ3JtzjuGzq4/25/l6z+c9v+AsTxB2wZmfhsmDO9rJKQ72EpLvpCo4nOTF75ocOejBcP8c6rhzBcd8HCBX8R/n8B3mHjyyQkK3gAAAABJRU5ErkJggg==" alt="Camiseta Técnica SportNova" />
+        <h3>Camiseta Técnica</h3>
+        <p>Con tecnología DryFit que mantiene la piel seca.</p>
+        <button>Añadir al carrito</button>
+      </div>
+
+      <!-- Zapatillas Running SportNova -->
+      <div class="product">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAADXCAMAAAD0w93cAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAByRJREFUeNrsmk1TwjAMhD98nzyt+L7bdZ25UySukSliDWy3/9aBMiikX6YyzWPSXQ09t+exIPwCxJX1qRyb8zqmgKoKKkgqAtwo+aTSzX7cQ0VteCDVLBP4CBc7jk91HeQhddXDHLgCqIrcqSogHoBJUnyEh04KvYgNk4ySTNSJwDTVdV0K1LKSnXICyJXTgv9NKNUpHIT+KNzG9CHmpMxKZyRnyQ3GhJqQ6dSGHSCKm7m2FYlzCj2nAVSxU+N5XQNCXLE5VSHChJbk+MEs5Gvlq+0uHNLWkC5O0T9VFcbyf
