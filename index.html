@@ -33,7 +33,7 @@
       text-decoration: underline;
     }
     .hero {
-      background: url('https://images.unsplash.com/photo-1591012911203-518e6765f84b?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD...') no-repeat center center/cover;
       color: white;
       padding: 5rem 2rem;
       text-align: center;
@@ -133,14 +133,14 @@
 <body>
 
   <header>
-    <img src="https://i.imgur.com/x8M2X8M.png" alt="SportNova Logo"/>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAMAAACZP8TxAAAAGFBMVEUAAAD///+qqqqmpqbLy8vGxsa7u7uZmZmcnJy/wcDlAAAACHRSTlMAAQIDBAUGBwgJCCRNu8EAAAJ4SURBVHja7ZfLCsJAFIXnoQ7//+xbph27RQlYqNq7bdk7MG2DsPTTk4j6z0hM5zfnM5MlkMnk8vDw8PQAAAAB+KzM8jZxnPeRDrNX+4fq+rq+qHdeU1f+lgIqzklLj9vsVbXYwNlI0DkKg/WvxZYBdNPHGmAX7xxWWA10scQ6x++QVdgNWLS1CG0ekKYB3djTNgJuhLQuhLQQwg3YRM0h9yJ6lqL4e6Gpr1LrG+pLltu2NuSZ69vdLqPvZr4PbPcEAZ1Umi5Vz4O3lDY1LcFyQxRdQHSOX4HZ1WOA9sdltAxPeXfXUy9w5rA7RJsAxHlKoFOcCckPAFwOZB1AesMyEjK3xOA/1klU0ElNfrjL6qg6zA4SA9Ujm2pmuhEayqV0F0o4l4D8MHMWnx/rF82aASvHvGpJ9q4zLcQUvlLZ0/VgAbaVuUKN88zE7AL9cZcM+cK9Q7fJ6OB6rTbJ6MzxlTjx94aCUbs2S3chSAtLP1NgFSzEU1Q67FbYaXAr9CDtHCgsN3LpB1J9DlQlpyM4H9D3rBDWzBqYTJe5Qz3MiR+rfMnF3+4CsV4GxBclNz6v1i7/6OnyY81IB0+NdfgEveqAfwJdkAAAAASUVORK5CYII=" alt="SportNova Logo"/>
     <nav>
       <a href="#productos">Productos</a>
       <a href="#sostenibilidad">Sostenibilidad</a>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBAQEBAVEBUQEBUPEBAQEBAVFRUQFREWFhUSFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQFysdHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAIBBwj/xAA6EAABAwIDBQcEAwYGAwAAAAABAAIRAyEEEjFBUWEFEyJxgZGhBxMyUrHB0fAUQmLhFCNTYnLxFiM0c4KTorLC8f/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAQIFBgH/xAAwEQACAgEDAgMGBgMBAAAAAAABAgADEQQSITEFQVFhcYGRobHw8RMy0fAyUmLh8RX/2gAMAwEAAhEDEQA/APXqIqVEioVeVJUYjrUikqz+2xNEn0Qe8GkjD5pE1yR7KHHNwxpgD1yoZxTCloF+XpJUsWSf0DpbCZSmVjKhaKlK+S0e6MZaLxTvIbzupYfy6an94cWw1ELUoEZoqXfY7pf9pBf8AM0NxLDHCshD3bX4FUEtvK1g6qDpXsdrm58txX91rDYToKa1HZxFqB3gqtQFFKeJY2k9AfNZzIbB6aXUd7C9RYdOcSRqZXe4Eymle7JVQUyQ6hZhKnexEpxTDHJUocFUbGQ00bKMpdVPZSkqREiZgj9VDx8CkRo1fNa3ZyfEFwN6CphRmvJ4NQY22WbWcxI58RJJQPtIyLCidp3Yd9SLvSSlLj9aVpf2ePQeU7Ax6NBYMCQ1Zj7/AF3rUdxDSwuaSXDcRNH3VpjHwGwlSZU7jX6fkgLTed4jv+Rf6jSmo7/AD4tTVcvhJVKgUo5SUrkoLyknIAOUm9/2lBqAc6yXvKzRRJhVQlIxjA6Z58kCSrUA3c3eb7gD96kx1Dc4fCNPkdzqdRyb6N92C2b6qX3hAPZ/j0j5k7EJO3GPxuNkvypKJKnnkESklQoFqVKU5VJlXJJFK5HwEdbz8e7Sr++kTxIdJG0pcvNRLaaYpSqepAkx6lJ+cHkk8Y+b1TD7/4vHVZbDjdqPa11J5WTzkuJ8JKVaRnA+VJS4GVqUVKTjXpLDgc9CVKcVITklKUJSZABwUUSnb6PhSQrVhJLnQ7pJAgHnFA7zxHPZ9yzheQw29VPPtO+/TlJOpWpaXSg0+RIQXOqcVYKuM4LzISpFmlFGB1ClOqVHQSJKXGgSkkqxBJqVJCiQIOcB1ykHWRXYiibXBH8jfpUtjvBbfSNpPqcqMeRGpyX7JI4N5R9EpLOE8py1p8Eb3/wCWrPSPZPLPOpU+MbNlxhZRo7TQqPyJLhKBpWiQOT1UkdeP2UPh9Wz8bWvEW89iOpbE3nUSFJIU5kBJKYp0lSDGcooyfNGjIUtSiVCUpJ8hKAkEM5G6UKVKXCk1Nc1Vhy8ULkV7y3id+KLF2Dx+O9tYpStQtNNXyVJQmSlDlL/2Q==');">
     <h1>SportNova</h1>
     <p>Alcanza tu máximo potencial</p>
   </section>
@@ -149,78 +149,10 @@
     <h2>Nuestros Productos</h2>
     <div class="product-grid">
       <div class="product">
-        <img src="https://images.unsplash.com/photo-1600185365395-c8242f6b6f5f?auto=format&fit=crop&w=400&q=80" alt="Camiseta técnica SportNova">
-        <h3>Camiseta Técnica</h3>
-        <p>Con tecnología DryFit que mantiene la piel seca.</p>
-        <button>Añadir al carrito</button>
-      </div>
-      <div class="product">
-        <img src="https://images.unsplash.com/photo-1621792584936-e1efb7e01de2?auto=format&fit=crop&w=400&q=80" alt="Zapatillas running SportNova">
-        <h3>Zapatillas Running</h3>
-        <p>Amortiguación óptima para tus carreras.</p>
-        <button>Añadir al carrito</button>
-      </div>
-      <div class="product">
-        <img src="https://images.unsplash.com/photo-1599945548199-55f93e5e2ec7?auto=format&fit=crop&w=400&q=80" alt="Pantalones deportivos SportNova">
-        <h3>Pantalón Deportivo</h3>
-        <p>Comodidad y estilo para tus entrenamientos.</p>
-        <button>Añadir al carrito</button>
-      </div>
-    </div>
-  </section>
-
-  <section id="sostenibilidad" class="sustainability">
-    <h2 id="toggleSostenibilidad">Plan de Sostenibilidad (haz clic para ver)</h2>
-    <div id="contenidoSostenibilidad" class="sustainability-content">
-      <h3>1. Análisis de contexto de la organización</h3>
-      <p>SportNova evalúa su impacto ambiental y social en todas las áreas de producción y distribución, considerando su rol en el sector textil deportivo global. Se realiza un análisis de las tendencias del mercado y expectativas de consumidores conscientes.</p>
-
-      <h3>2. Identificación de impactos y dependencias</h3>
-      <p>Se identifican riesgos como la contaminación por microplásticos, el consumo energético elevado, y la dependencia de materias primas no renovables. Oportunidades incluyen la implementación de reciclaje textil, energías renovables y optimización logística.</p>
-
-      <h3>3. Identificación de ODS clave</h3>
-      <p>Los Objetivos de Desarrollo Sostenible prioritarios para SportNova son:</p>
-      <ul>
-        <li><strong>ODS 3:</strong> Salud y bienestar.</li>
-        <li><strong>ODS 8:</strong> Trabajo decente y crecimiento económico.</li>
-        <li><strong>ODS 12:</strong> Producción y consumo responsables.</li>
-        <li><strong>ODS 13:</strong> Acción por el clima.</li>
-      </ul>
-
-      <h3>4. Diseño de objetivos y líneas estratégicas</h3>
-      <p>SportNova se compromete a reducir el uso de plástico, implementar economía circular en sus procesos y promover condiciones laborales éticas y seguras en toda la cadena de suministro.</p>
-
-      <h3>5. Diseño de acciones concretas</h3>
-      <ul>
-        <li>Uso de materiales reciclados y biodegradables en la fabricación.</li>
-        <li>Campañas de recolección y reciclaje de ropa usada para evitar residuos.</li>
-        <li>Certificaciones de sostenibilidad para proveedores y procesos.</li>
-      </ul>
-
-      <h3>6. Diseño del plan de comunicación</h3>
-      <p>Transparencia total mediante la difusión de informes anuales en la página web, comunicación activa en redes sociales y etiquetado ecológico claro en cada prenda para informar al consumidor final.</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 SportNova. Todos los derechos reservados.</p>
-  </footer>
-
-  <script>
-    const toggleBtn = document.getElementById('toggleSostenibilidad');
-    const contenido = document.getElementById('contenidoSostenibilidad');
-
-    toggleBtn.addEventListener('click', () => {
-      if (contenido.classList.contains('open')) {
-        contenido.classList.remove('open');
-        toggleBtn.textContent = 'Plan de Sostenibilidad (haz clic para ver)';
-      } else {
-        contenido.classList.add('open');
-        toggleBtn.textContent = 'Plan de Sostenibilidad (haz clic para ocultar)';
-        // Desplazar la vista hacia la sección abierta
-        contenido.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
-  </script>
-</body>
-</html>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcU
+        FhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgo
+        KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAQABADASIA
+        AhEBAxEB/8QAHwAAAQUBAQEBAAAAAAAAAAAABQIDBAYHAQcI/8QANxAAAQMCBAMGBAYBBAMAAAAAA
+        QACAwQFEQYSITETQVFhcYGRobHB0fAUMkLhI1JicuHwFiMzQ2KC/8QAGAEBAQEBAQAAAAAAAAAA
+        AAAAAAIDAQX/xAAkEQACAgEEAgIDAAAAAAAAAAABAgMRBBIhMUFRExQiUXGB0f/aAAwDAQACEQMR
+        AD8A+K6tHtVTZXnxn3Wq1ZJrWaf9g57SMEr+LkW7gHe4UjApAq5Dk0ykNlVXYyxVZgO2Eh0
